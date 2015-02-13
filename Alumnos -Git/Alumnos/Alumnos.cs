@@ -72,7 +72,6 @@ namespace Alumnos
         public int contador()
         {
             int res = 0;
-
             res = lista.Count;
 
             return res;
