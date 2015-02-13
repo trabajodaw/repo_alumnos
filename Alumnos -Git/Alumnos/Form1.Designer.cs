@@ -33,10 +33,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.ltb1 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,15 +84,6 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Lista de alumnos";
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(45, 113);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(595, 197);
-            this.textBox3.TabIndex = 6;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -122,15 +113,23 @@
             this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown1.TabIndex = 0;
             // 
+            // ltb1
+            // 
+            this.ltb1.FormattingEnabled = true;
+            this.ltb1.Location = new System.Drawing.Point(45, 129);
+            this.ltb1.Name = "ltb1";
+            this.ltb1.Size = new System.Drawing.Size(595, 186);
+            this.ltb1.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(682, 370);
+            this.Controls.Add(this.ltb1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -151,10 +150,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.ListBox ltb1;
     }
 }
 

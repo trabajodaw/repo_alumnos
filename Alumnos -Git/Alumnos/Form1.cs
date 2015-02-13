@@ -40,7 +40,7 @@ namespace Alumnos
 
             
 
-            textBox3.Text = textBox3.Text + alu.Nombre + "       " + "Nota: " +  numericUpDown1.Value + "       " + texto + "\r\n";
+            ltb1.Items.Add(alu.Nombre + "       " + "Nota: " +  numericUpDown1.Value + "       " + texto + "\r\n");
 
             media = alumn.MediaNotas();
 
