@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Alumnos</name>
+    </assembly>
+    <members>
+        <member name="T:Alumnos.Alumno">
+            <summary>
+            <para>Clase que representa boletin de notas de un alumno.</para>
+            <para>Se puede ver lo siguiente en el boletin: 
+            <list type="bullet">
+                <item>
+                    <description>Ver nombre de alumno</description>
+                </item>
+                <item>
+                    <description>Ver nota de alumno</description>
+                </item>
+                <item>
+                    <description>Ver si esta aprobado</description>
+                </item>
+            </list>
+            </para>
+            </summary>
+        </member>
+        <member name="F:Alumnos.Alumno.nombre">
+            <summary>
+            Nombre del alumno, almacenado en un string.
+            </summary>
+        </member>
+        <member name="F:Alumnos.Alumno.nota">
+            <summary>
+            Nota que tendra el usuario, expresado en entero.
+            </summary>
+        </member>
+        <member name="P:Alumnos.Alumno.Nombre">
+            <summary>
+            Devuelve el nombre que tendra el alumno.
+            </summary>
+            <value>Nombre del alumno</value>
+        </member>
+        <member name="P:Alumnos.Alumno.Nota">
+            <summary>
+            Devuelve la nota si esta entre 0 y 10.
+            </summary>
+            <remarks>Recordad que la nota debe estar entre 0 y 10</remarks>
+            <value>Nota del alumno</value>
+        </member>
+        <member name="P:Alumnos.Alumno.Aprobado">
+            <summary>
+            Devuelve true o false si el alumno esta aprobado con un 5 o mas.
+            </summary>
+            <remarks>La nota debe ser 5 o mayor para que este aprobado</remarks>
+            <returns>Devuelve True o False dependiendo de la nota.</returns>
+        </member>
+        <member name="T:Alumnos.Alumnos">
+            <summary>
+            <para>Clase que representa una lista de alumnos para sacar la media.</para>
+            </summary>
+        </member>
+        <member name="F:Alumnos.Alumnos.lista">
+            <summary>
+            Lista donde se añadiran los alumnos.
+            </summary>
+        </member>
+        <member name="M:Alumnos.Alumnos.AgregarAlumno(Alumnos.Alumno)">
+            <summary>
+            Añade a la lista los alumnos.
+            </summary>
+            <param name="alumn">Parametro de la clase Alumno</param>
+        </member>
+        <member name="M:Alumnos.Alumnos.MediaNotas">
+             <summary>
+            <para>Recorre la lista añadiendo a la variable media las notas de los alumnos y dependiendo si la lista esta vacia o no
+             hace la media dividiendo la suma de las notas por la cantidad de alumnos que hay en la lista.</para> 
+             </summary>
+             <returns>Devuelve la media de la lista</returns>
+        </member>
+        <member name="P:Alumnos.Alumnos.listaAlumnos">
+            <summary>
+            Devuelve la lista donde estaran los alumnos.
+            </summary>
+            <value>Lista de alumnos</value>
+        </member>
+        <member name="F:Alumnos.Form1.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:Alumnos.Form1.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario.</param>
+        </member>
+        <member name="M:Alumnos.Form1.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="M:Alumnos.Program.Main">
+            <summary>
+            Punto de entrada principal para la aplicación.
+            </summary>
+        </member>
+        <member name="T:Alumnos.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Alumnos.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Alumnos.Properties.Resources.Culture">
+            <summary>
+              Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos usando esta clase de recursos fuertemente tipados.
+            </summary>
+        </member>
+    </members>
+</doc>
