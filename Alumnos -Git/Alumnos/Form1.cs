@@ -26,11 +26,9 @@ namespace Alumnos
             double media;
 
             alu.Nombre = textBox1.Text;
-            alu.Nota = int.Parse(textBox2.Text);
-              
-
+            alu.Nota = (int)numericUpDown1.Value;
             textBox1.Text = "";
-            textBox2.Text = "";
+
 
 
             if (alu.Aprobado == true)
@@ -42,7 +40,7 @@ namespace Alumnos
 
             
 
-            textBox3.Text = textBox3.Text + alu.Nombre + "       " + "Nota: " +  alu.Nota + "       " + texto + "\r\n";
+            textBox3.Text = textBox3.Text + alu.Nombre + "       " + "Nota: " +  numericUpDown1.Value + "       " + texto + "\r\n";
 
             media = alumn.MediaNotas();
 

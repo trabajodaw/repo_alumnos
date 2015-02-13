@@ -25,3 +25,13 @@ H:\Grado superior\1 DAW-1M\Entorn. Desarr\Alumnos -Git\Alumnos\bin\Debug\Alumnos
 H:\Grado superior\1 DAW-1M\Entorn. Desarr\Alumnos -Git\Alumnos\bin\Debug\Alumnos.XML
 H:\Grado superior\1 DAW-1M\Entorn. Desarr\Alumnos -Git\Alumnos\obj\Debug\Alumnos.exe
 H:\Grado superior\1 DAW-1M\Entorn. Desarr\Alumnos -Git\Alumnos\obj\Debug\Alumnos.pdb
+C:\Users\Alundra\Documents\Visual Studio 2012\Projects\repo_alumnos\Alumnos -Git\Alumnos\bin\Debug\Alumnos.exe.config
+C:\Users\Alundra\Documents\Visual Studio 2012\Projects\repo_alumnos\Alumnos -Git\Alumnos\bin\Debug\Alumnos.XML
+C:\Users\Alundra\Documents\Visual Studio 2012\Projects\repo_alumnos\Alumnos -Git\Alumnos\obj\Debug\Alumnos.exe
+C:\Users\Alundra\Documents\Visual Studio 2012\Projects\repo_alumnos\Alumnos -Git\Alumnos\obj\Debug\Alumnos.pdb
+C:\Users\Alundra\Documents\Visual Studio 2012\Projects\repo_alumnos\Alumnos -Git\Alumnos\bin\Debug\Alumnos.exe
+C:\Users\Alundra\Documents\Visual Studio 2012\Projects\repo_alumnos\Alumnos -Git\Alumnos\bin\Debug\Alumnos.pdb
+C:\Users\Alundra\Documents\Visual Studio 2012\Projects\repo_alumnos\Alumnos -Git\Alumnos\obj\Debug\Alumnos.csprojResolveAssemblyReference.cache
+C:\Users\Alundra\Documents\Visual Studio 2012\Projects\repo_alumnos\Alumnos -Git\Alumnos\obj\Debug\Alumnos.Form1.resources
+C:\Users\Alundra\Documents\Visual Studio 2012\Projects\repo_alumnos\Alumnos -Git\Alumnos\obj\Debug\Alumnos.Properties.Resources.resources
+C:\Users\Alundra\Documents\Visual Studio 2012\Projects\repo_alumnos\Alumnos -Git\Alumnos\obj\Debug\Alumnos.csproj.GenerateResource.Cache
