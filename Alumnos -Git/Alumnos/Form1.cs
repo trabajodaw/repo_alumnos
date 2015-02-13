@@ -24,6 +24,8 @@ namespace Alumnos
             Alumno alu = new Alumno();
             string texto;
             double media;
+            int cont = 0;
+
 
             alu.Nombre = textBox1.Text;
             alu.Nota = (int)numericUpDown1.Value;
@@ -38,13 +40,15 @@ namespace Alumnos
 
             alumn.AgregarAlumno(alu);
 
-            
 
             ltb1.Items.Add(alu.Nombre + "       " + "Nota: " +  numericUpDown1.Value + "       " + texto + "\r\n");
 
             media = alumn.MediaNotas();
 
             textBox4.Text = media.ToString();
+
+            cont = alumn.contador();
+            textBox2.Text = cont.ToString();
         }
     }
 }

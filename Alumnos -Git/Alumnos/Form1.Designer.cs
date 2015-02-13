@@ -37,6 +37,8 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.ltb1 = new System.Windows.Forms.ListBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -121,11 +123,30 @@
             this.ltb1.Size = new System.Drawing.Size(595, 186);
             this.ltb1.TabIndex = 9;
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(130, 328);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(45, 331);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(79, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Nº de alumnos:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(682, 370);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.ltb1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.textBox4);
@@ -154,6 +175,8 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.ListBox ltb1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label5;
     }
 }
 
