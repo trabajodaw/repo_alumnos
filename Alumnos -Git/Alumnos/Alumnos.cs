@@ -74,8 +74,6 @@ namespace Alumnos
             int res = 0;
 
             res = lista.Count;
-
-
             return res;
         }
     }
